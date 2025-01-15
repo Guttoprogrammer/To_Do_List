@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Login</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div class="container-main">
+        <header>
+            <h1>Seja bem-vindo!</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</br> Quasi veniam dignissimos sit? Voluptate, fugiat?</p>
+        </header>
+            
+            <div class="form_container">
+                <form>
+                    <h2>Faça seu Login!</h2>
+                    <input type="text" placeholder="Nome de usuário" name="user_name" id="user_name" required>
+                    <input type="password" placeholder="Senha" name="user_password" id="user_password" required>
+                    <a id="forgot_password" href="#">Esqueci minha senha</a>
+                    <button type="submit" id="button_login" name="button_login">Login</button>
+                        <div class="remember-me">
+                            <label for="remember-me">
+                                <input type="checkbox" name="remember-me" id="remember-me">
+                                Lembrar-me?
+                                <span class="custom-checkbox">
+                                    <i class="fas fa-check"></i>
+                                </span>
+                            </label>
+                        </div>                  
+                </form>
+            </div>
+                
+    </div>
+    <footer class="footer_container">
+        <div class="github">
+            <a href="https://github.com/Guttoprogrammer" target="_blank"><img src="./images/github_white.png" alt="Logo do github"></a>
+            <p>By: &copy; Guttoprogrammer - Projeto Login Page | </p>
+        </div>
+            <p>Ainda não possui cadastro?<a href="#" id="register"> Cadastre-se agora!</a> | </p>
+            <p>Verifique os  <a href="#">Termos de Serviço</a> e a nossa <a href="#">Política de Privacidade</a>. | </p>
+        <div class="socials">
+            <a href="#"><img src="./images/facebook_logo.png" alt="logo do facebook"></a>
+            <a href="#"><img src="./images/instagram_logo.png" alt="logo do instagram"></a>
+            <a href="#"><img src="./images/whatsapp_logo.png" alt="logo do whatsapp"></a>
+        </div>
+    </footer>
+</body>
+</html>
