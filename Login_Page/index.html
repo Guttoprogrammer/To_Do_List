@@ -18,10 +18,10 @@
         </header>
             
             <div class="form_container">
-                <form>
+                <form id="formLogin">
                     <h2>Faça seu Login!</h2>
-                    <input type="text" placeholder="Nome de usuário" name="user_name" id="user_name" required>
-                    <input type="password" placeholder="Senha" name="user_password" id="user_password" required>
+                    <input type="email" placeholder="E-mail do usuário" name="user_email" id="user_email" minlength="10" >
+                    <input type="password" placeholder="Senha" name="user_password" id="user_password" >
                     <a id="forgot_password" href="#">Esqueci minha senha</a>
                     <button type="submit" id="button_login" name="button_login">Login</button>
                         <div class="remember-me">
@@ -35,7 +35,6 @@
                         </div>                  
                 </form>
             </div>
-                
     </div>
     <footer class="footer_container">
         <div class="github">
@@ -50,5 +49,7 @@
             <a href="#"><img src="./images/whatsapp_logo.png" alt="logo do whatsapp"></a>
         </div>
     </footer>
+
+    <script src="./main.js"></script>
 </body>
 </html>
