@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>Login</title>
+    <title>Página de Login</title>
     <link rel="stylesheet" href="./main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,17 +13,14 @@
 <body>
     <div class="container-main">
         <header>
-            <h1>Seja bem-vindo!</h1>
+            <h1>Seja Bem-Vindo!</h1>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</br> Quasi veniam dignissimos sit? Voluptate, fugiat?</p>
         </header>
-            
             <div class="form_container">
                 <form id="formLogin">
                     <h2>Faça seu Login!</h2>
                     <input type="email" placeholder="E-mail do usuário" name="user_email" id="user_email" minlength="10" >
                     <input type="password" placeholder="Senha" name="user_password" id="user_password" >
-                    <a id="forgot_password" href="#">Esqueci minha senha</a>
-                    <button type="submit" id="button_login" name="button_login">Login</button>
                         <div class="remember-me">
                             <label for="remember-me">
                                 <input type="checkbox" name="remember-me" id="remember-me">
@@ -32,7 +29,9 @@
                                     <i class="fas fa-check"></i>
                                 </span>
                             </label>
-                        </div>                  
+                        </div>
+                        <a id="forgot_password" href="#">Esqueci minha senha</a>
+                        <button type="submit" id="button_login" name="button_login">Login</button>        
                 </form>
             </div>
     </div>

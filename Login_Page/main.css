@@ -35,7 +35,7 @@ body{
     
     h1{
         font-size: 3em;
-        margin-bottom: 100px;
+        margin-bottom: 1em;
     }
     
     h1,p,h2{
@@ -67,11 +67,12 @@ body{
     }
     
     input{
-        font-size: large;
-        padding: 15px;
+        color: black;
+        font-size: medium;
+        padding: 20px;
         margin: 5px;
         justify-content: center;
-        height: 20px;
+        height: 1em;
         width: 300px;
         border: none;
         border-radius: 20px;
@@ -80,13 +81,12 @@ body{
     
     #forgot_password:hover{
         transition: color 0.5s;
-        color: rgb(15, 0, 219);
+        color: rgb(255, 255, 255);
     }
     
     #forgot_password{
-        color: rgb(255, 51, 51);
-        display: flex;
-        justify-content: end;
+        color: rgb(0, 24, 72);
+        display: block;
         font-size: 12px;
         font-weight: normal;
         border: none;
@@ -152,7 +152,7 @@ body{
         height: 100%;
         display: none; 
         color: white; 
-        font-size: 14px; 
+        font-size: 1em; 
     }
     
     .remember-me input[type="checkbox"]:checked + .custom-checkbox i {
@@ -168,10 +168,10 @@ body{
     
     .remember-me label{
         color: #fff;
-        font-size: 16px;
+        font-size: 1em;
         cursor: pointer;
         display: flex;
-        align-items: center
+        justify-content: center;
     }
     
     .footer_container p, .footer_container img{
