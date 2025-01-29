@@ -133,8 +133,8 @@ body{
     }
     
     .custom-checkbox {
-        width: 18px;
-        height: 18px;
+        width: 1.4em;
+        height: 1.2em;
         border: 2px solid #ccc;
         display: flex;
         border-radius: 4px;
@@ -148,10 +148,10 @@ body{
         top: 0;
         left: 0;
         width: 100%;
-        height: 100%;
+        height: 90%;
         display: none; 
         color: white; 
-        font-size: 0.9em; 
+        font-size: 1em; 
     }
     
     .remember-me input[type="checkbox"]:checked + .custom-checkbox i {
@@ -167,7 +167,7 @@ body{
     
     .remember-me label{
         color: #fff;
-        font-size: 1em;
+        font-size: 0.8em;
         cursor: pointer;
         display: flex;
         justify-content: center;
@@ -270,12 +270,11 @@ body{
         max-width:40px ;
     }
     
-
     .custom-checkbox {
-        width: 18px;
-        height: 18px;
+        width: 1.4em;
+        height: 1.2em;
         border: 2px solid #ccc;
-        display: inline-block;
+        display: flex;
         border-radius: 4px;
         margin-left: 8px;
         transition: background-color 0.3s;
@@ -287,11 +286,12 @@ body{
         top: 0;
         left: 0;
         width: 100%;
-        height: 100%;
+        height: 90%;
         display: none; 
         color: white; 
-        font-size: 0.9em; 
+        font-size: 1em; 
     }
+    
     .socials{
         display: flex;
     }
